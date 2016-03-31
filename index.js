@@ -55,7 +55,7 @@
 
     getVideoStream(function () {
         captureFrame();
-        setInterval(captureFrame, 40);
+        setInterval(captureFrame, 16);
     });        
     
     var filters = {
